@@ -33,6 +33,15 @@ body{
     box-sizing: border-box;
 }
 
+.buttons{
+    margin-top: 10px;
+}
+
+.buttons input {
+
+
+}
+
 input:focus,
 select:focus,
 textarea:focus,
