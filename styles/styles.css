@@ -8,6 +8,34 @@ body{
 
 }
 .content{
-    width: auto;
     margin-top: 200px;
+}
+
+.search-bar{
+    position: relative;
+    width: 30em;
+    display: inline-block;
+}
+
+.search-bar i {
+    position: absolute;
+    color: gray;
+    left: 15px;
+    top: 35px;
+}
+
+.search-bar input{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 15px 15px 40px;
+    border-radius: 30px;
+    border: 1px #D3D3D3 solid;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
