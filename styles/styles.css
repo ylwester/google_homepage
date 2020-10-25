@@ -1,4 +1,13 @@
+body{
+    text-align: center;
+}
+
 .full-page{
+    width: 100%;
     background-color: white;
 
+}
+.content{
+    width: auto;
+    margin-top: 200px;
 }
